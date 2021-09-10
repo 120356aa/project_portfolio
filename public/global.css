@@ -29,6 +29,10 @@ body {
 	background: rgb(36,37,45);
 	background: linear-gradient(125deg, rgba(36,37,45,1) 0%, rgba(26,27,33,1) 100%);
 }
+body {
+	display: flex;
+	justify-content: center;
+}
 ol, ul {
 	list-style: none;
 }
