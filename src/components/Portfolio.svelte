@@ -1,11 +1,198 @@
 <script>
-
+    let logo = `assets/logo_large.png`;
 </script>
 
 <main>
-
+    <div class="card">
+        <div class="logo_container avnw_app">
+            <img src={logo} class="avnw_logo" alt="alpha visuals app logo" />
+        </div>
+        <div class="header">
+            <h3>Alpha Visuals App</h3>
+            <p>Alpha Visuals is a cross platform mobile app created for a photography startup using React Native along with Expo. Available on the Android and IOS stores. </p>
+        </div>
+        <div class="technologies">
+            <h3>Key Technologies</h3>
+            <div class="tags_box">
+                <div class="tag">
+                    <p>React Native</p>
+                </div>
+                <div class="tag">
+                    <p>Expo</p>
+                </div>
+                <div class="tag">
+                    <p>NodeJS</p>
+                </div>
+                <div class="tag">
+                    <p>Express</p>
+                </div>
+                <div class="tag">
+                    <p>PostGresql</p>
+                </div>
+                <div class="tag">
+                    <p>Stripe</p>
+                </div>
+                <div class="tag">
+                    <p>Sequelize</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons"></div>
+    </div>
+    <div class="card">
+        <div class="logo_container dc">
+            <h2>D&C</h2>
+        </div>
+        <div class="header">
+            <h3>Test Drive</h3>
+            <p>A public facing marketing tool created to drive business and automate the test drive process. Created to be an injectable form for facebook ads and vehicle marketplace platforms.</p>
+        </div>
+        <div class="technologies">
+            <h3>Key Technologies</h3>
+            <div class="tags_box">
+                <div class="tag">
+                    <p>React</p>
+                </div>
+                <div class="tag">
+                    <p>Axios</p>
+                </div>
+                <div class="tag">
+                    <p>Nodemailer</p>
+                </div>
+                <div class="tag">
+                    <p>Styled Components</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons"></div>
+    </div>
+    <div class="card">
+        <div class="logo_container avnw_site">
+            <img src={logo} class="avnw_logo" alt="alpha visuals website logo" />
+        </div>
+        <div class="header">
+            <h3>Alpha Visuals Website</h3>
+            <p>A responsive website for the Alpha Visuals photography startup. Created using React, featuring an Instagram webscraping script due to lack of public API. </p>
+        </div>
+        <div class="technologies">
+            <h3>Key Technologies</h3>
+            <div class="tags_box">
+                <div class="tag">
+                    <p>React</p>
+                </div>
+                <div class="tag">
+                    <p>Web Scraping</p>
+                </div>
+                <div class="tag">
+                    <p>Nodemailer</p>
+                </div>
+                <div class="tag">
+                    <p>Styled Components</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons"></div>
+    </div>
 </main>
 
 <style type="text/scss">
+    @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
+	main {
+		max-width: 1000px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+        .card {
+            width: 240px;
+            padding: 25px;
+            border-radius: 8px;
+            background-color: #15161B;
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+
+            &:nth-child(2) {
+                margin: 0 20px;
+            }
+
+            .avnw_app { background-color: #2669B8; }
+            .dc { background-color: #CDCDCD; }
+            .avnw_site { background-color: #4E4E4E; }
+
+            .logo_container {
+                width: 240px;
+                height: 240px;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                h2 {
+                    font-family: 'Kaisei HarunoUmi', serif;
+                    font-size: 60px;
+                    color: #181818;
+                }
+            }
+
+            .header {
+                margin-top: 30px;
+
+                h3 {
+                    font-family: 'Loto', sans-serif;
+                    font-size: 20px;
+                    color: #E5E5E5;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-family: 'Loto', sans-serif;
+                    font-size: 14px;
+                    line-height: 19px;
+                    margin-top: 15px;
+                    color: #B2B2B2;
+                    font-weight: 100;
+                }
+            }
+
+            .technologies {
+                margin-top: 30px;
+
+                h3 {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 16px;
+                    color: #E5E5E5;
+                    font-weight: 700;
+                }
+
+                .tags_box {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 10px;
+                    flex-wrap: wrap;
+
+                    .tag {
+                        border-radius: 4px;
+                        padding: 8px 14px;
+                        background-color: #24252D;
+                        margin: 3px 6px 3px 0;
+
+                        p {
+                            font-family: 'Lato', sans-serif;
+                            font-size: 12px;
+                            font-weight: 700;
+                            color: #CBCBCB;
+                        }
+                    }
+                }
+            }
+        }
+    }
 </style>

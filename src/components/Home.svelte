@@ -58,7 +58,6 @@
 				@media screen and (max-width: 500px) { font-size: 42px; }
 				@media screen and (max-width: 400px) { font-size: 38px; }
 				@media screen and (max-width: 360px) { font-size: 32px; }
-				
 			}
 
 			h3 {
