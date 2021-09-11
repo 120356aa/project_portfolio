@@ -10,7 +10,7 @@
         </div>
         <div class="header">
             <h3>Alpha Visuals App</h3>
-            <p>Alpha Visuals is a cross platform mobile app created for a photography startup using React Native along with Expo. Available on the Android and IOS stores. </p>
+            <p>Alpha Visuals is a cross platform mobile app created for a photography startup using React Native along with Expo. Available on the Android and IOS stores</p>
         </div>
         <div class="technologies">
             <h3>Key Technologies</h3>
@@ -51,7 +51,7 @@
         </div>
         <div class="header">
             <h3>Test Drive</h3>
-            <p>A public facing marketing tool created to drive business and automate the test drive process. Created to be an injectable form for facebook ads and vehicle marketplace platforms.</p>
+            <p>A public facing marketing tool created to drive business and automate the test drive process. Built to be an injectable form for facebook ads and vehicle marketplace platforms</p>
         </div>
         <div class="technologies">
             <h3>Key Technologies</h3>
@@ -78,8 +78,7 @@
                 <img src={github_btn} alt="github button image" />
                 <p>Github</p>
             </a>
-            <a href="#">
-                <img src={github_btn} alt="demo button image" />
+            <a href="#" class="demo">
                 <p>Demo</p>
             </a>
         </div>
@@ -90,7 +89,7 @@
         </div>
         <div class="header">
             <h3>Alpha Visuals Website</h3>
-            <p>A responsive website for the Alpha Visuals photography startup. Created using React, featuring an Instagram webscraping script due to lack of public API. </p>
+            <p>A responsive website for the Alpha Visuals photography startup. Built using React, featuring an Instagram webscraping script due to lack of public API</p>
         </div>
         <div class="technologies">
             <h3>Key Technologies</h3>
@@ -120,8 +119,7 @@
                 <img src={github_btn} alt="github button image" />
                 <p>Github</p>
             </a>
-            <a href="#">
-                <img src={github_btn} alt="demo button image" />
+            <a href="#" class="demo">
                 <p>Demo</p>
             </a>
         </div>
@@ -254,6 +252,13 @@
                         font-size: 14px;
                         color: #202020;
                         margin-left: 5px;
+                    }
+                }
+
+                .demo {
+                    justify-content: center;
+                    p {
+                        margin: 0;
                     }
                 }
             }
