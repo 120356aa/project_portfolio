@@ -1,5 +1,6 @@
 <script>
     let logo = `assets/logo_large.png`;
+    let github_btn = 'assets/github_btn_dark.svg';
 </script>
 
 <main>
@@ -37,7 +38,12 @@
                 </div>
             </div>
         </div>
-        <div class="buttons"></div>
+        <div class="buttons">
+            <a href="#">
+                <img src={github_btn} alt="github button logo" />
+                <p>Github</p>
+            </a>
+        </div>
     </div>
     <div class="card">
         <div class="logo_container dc">
@@ -54,7 +60,10 @@
                     <p>React</p>
                 </div>
                 <div class="tag">
-                    <p>Axios</p>
+                    <p>Express</p>
+                </div>
+                <div class="tag">
+                    <p>NodeJS</p>
                 </div>
                 <div class="tag">
                     <p>Nodemailer</p>
@@ -64,7 +73,16 @@
                 </div>
             </div>
         </div>
-        <div class="buttons"></div>
+        <div class="buttons">
+            <a href="#">
+                <img src={github_btn} alt="github button image" />
+                <p>Github</p>
+            </a>
+            <a href="#">
+                <img src={github_btn} alt="demo button image" />
+                <p>Demo</p>
+            </a>
+        </div>
     </div>
     <div class="card">
         <div class="logo_container avnw_site">
@@ -81,6 +99,12 @@
                     <p>React</p>
                 </div>
                 <div class="tag">
+                    <p>Express</p>
+                </div>
+                <div class="tag">
+                    <p>NodeJS</p>
+                </div>
+                <div class="tag">
                     <p>Web Scraping</p>
                 </div>
                 <div class="tag">
@@ -91,7 +115,16 @@
                 </div>
             </div>
         </div>
-        <div class="buttons"></div>
+        <div class="buttons">
+            <a href="#">
+                <img src={github_btn} alt="github button image" />
+                <p>Github</p>
+            </a>
+            <a href="#">
+                <img src={github_btn} alt="demo button image" />
+                <p>Demo</p>
+            </a>
+        </div>
     </div>
 </main>
 
@@ -190,6 +223,37 @@
                             font-weight: 700;
                             color: #CBCBCB;
                         }
+                    }
+                }
+            }
+
+            .buttons {
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-between;
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background-color: #CBCBCB;
+                    padding: 6px 14px;
+                    border-radius: 4px;
+                    width: 36%;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
+
+                    p {
+                        font-family: 'Lato', sans-serif;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: #202020;
+                        margin-left: 5px;
                     }
                 }
             }
