@@ -88,7 +88,7 @@
                     <img src={github_btn} alt="github button image" />
                     <p>Github</p>
                 </a>
-                <a href="https://github.com/120356aa/dcmc-form-2" class="demo">
+                <a href="https://dcmotorcompany.netlify.app/" class="demo">
                     <p>Demo</p>
                 </a>
             </div>
