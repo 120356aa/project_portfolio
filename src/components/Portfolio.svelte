@@ -1,5 +1,6 @@
 <script>
     let logo = `assets/logo_large.png`;
+    let realestate = 'assets/home.svg';
     let github_btn = 'assets/github_btn_dark.svg';
 </script>
 
@@ -95,11 +96,11 @@
         </div>
         <div class="card">
             <div class="logo_container avnw_site">
-                <img src={logo} class="avnw_logo" alt="alpha visuals website logo" />
+                <img src={realestate} class="avnw_logo" alt="alpha visuals website logo" />
             </div>
             <div class="header">
-                <h3>Alpha Visuals Website</h3>
-                <p>A responsive website for the Alpha Visuals photography startup. Built using React, featuring an Instagram webscraping script due to lack of public API</p>
+                <h3>Real Estate Ad Form</h3>
+                <p>A marketing tool intended to be used on mobile devices via mobile Facebook and Instagram ads. Features complex validation and error handling</p>
             </div>
             <div class="technologies">
                 <h3>Key Technologies</h3>
@@ -128,11 +129,11 @@
                 </div>
             </div>
             <div class="buttons">
-                <a href="https://github.com/120356aa/alphavisuals">
+                <a href="https://github.com/120356aa/realestate-form">
                     <img src={github_btn} alt="github button image" />
                     <p>Github</p>
                 </a>
-                <a href="https://alphavnw.com/" class="demo">
+                <a href="https://realestateform.netlify.app/" class="demo">
                     <p>Demo</p>
                 </a>
             </div>
@@ -191,7 +192,7 @@
     
                 .avnw_app { background-color: #2669B8; }
                 .dc { background-color: #CDCDCD; }
-                .avnw_site { background-color: #4E4E4E; }
+                .avnw_site { background-color: #E05B50; }
     
                 .logo_container {
                     width: 240px;
@@ -212,13 +213,8 @@
                     }
     
                     img {
-                        width: 200px;
-                        height: 200px;
-    
-                        @media screen and (max-width: 1400px) {
-                            width: 160px;
-                            height: 160px;
-                        }
+                        width: 160px;
+                        height: 160px;
     
                         @media screen and (max-width: 1000px) {
                             width: 120px;
