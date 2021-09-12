@@ -9,7 +9,7 @@
 		<h3>Full Stack Software Engineer</h3>
 	</div>
 	<div class="buttons">
-		<a href="#" class="github">
+		<a href="https://github.com/120356aa" class="github">
 			<img src={github_img} alt="github button image" />
 			<p>Github</p>
         </a>

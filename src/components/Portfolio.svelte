@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="buttons">
-                <a href="#">
+                <a href="https://github.com/120356aa/avnw_app">
                     <img src={github_btn} alt="github button logo" />
                     <p>Github</p>
                 </a>
@@ -84,11 +84,11 @@
                 </div>
             </div>
             <div class="buttons">
-                <a href="#">
+                <a href="https://github.com/120356aa/dcmc-form-2">
                     <img src={github_btn} alt="github button image" />
                     <p>Github</p>
                 </a>
-                <a href="#" class="demo">
+                <a href="https://github.com/120356aa/dcmc-form-2" class="demo">
                     <p>Demo</p>
                 </a>
             </div>
@@ -128,11 +128,11 @@
                 </div>
             </div>
             <div class="buttons">
-                <a href="#">
+                <a href="https://github.com/120356aa/alphavisuals">
                     <img src={github_btn} alt="github button image" />
                     <p>Github</p>
                 </a>
-                <a href="#" class="demo">
+                <a href="https://alphavnw.com/" class="demo">
                     <p>Demo</p>
                 </a>
             </div>
